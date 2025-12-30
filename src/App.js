@@ -18,6 +18,7 @@ import AboutUs from "./Pages/About";
 import Blogs from "./Pages/Blogs";
 import BlogById from "./Pages/BlogById";
 import ContactUs from "./Pages/ContactUs";
+
 export default function App() {
   return (
     <>
