@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import img1 from "../images/img1.jpg";
 
 const ContactUs = () => {
@@ -49,6 +49,9 @@ const ContactUs = () => {
           </p>
         </div>
       </section>
+
+      {/* STATISTICS SECTION */}
+      <StatisticsSection />
 
       {/* CONTACT SECTION */}
       <section className="max-w-7xl mx-auto px-6 py-16">
@@ -374,6 +377,171 @@ const ContactUs = () => {
         </div>
       </section>
     </main>
+  );
+};
+
+// Statistics Component with Animated Counters
+const STATS_TARGETS = {
+  years: 15,
+  branches: 20,
+  coaches: 50,
+  students: 5000,
+};
+
+const StatisticsSection = () => {
+  const [counts, setCounts] = useState({
+    years: 0,
+    branches: 0,
+    coaches: 0,
+    students: 0,
+  });
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const sectionRef = useRef(null);
+
+  const animateCounters = useCallback(() => {
+    const duration = 2000; // 2 seconds
+    const steps = 60;
+    const interval = duration / steps;
+
+    let currentStep = 0;
+
+    const timer = setInterval(() => {
+      currentStep++;
+      const progress = currentStep / steps;
+
+      // Easing function for smooth animation
+      const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+
+      setCounts({
+        years: Math.floor(STATS_TARGETS.years * easeOutQuart),
+        branches: Math.floor(STATS_TARGETS.branches * easeOutQuart),
+        coaches: Math.floor(STATS_TARGETS.coaches * easeOutQuart),
+        students: Math.floor(STATS_TARGETS.students * easeOutQuart),
+      });
+
+      if (currentStep >= steps) {
+        setCounts({
+          years: STATS_TARGETS.years,
+          branches: STATS_TARGETS.branches,
+          coaches: STATS_TARGETS.coaches,
+          students: STATS_TARGETS.students,
+        });
+        clearInterval(timer);
+      }
+    }, interval);
+  }, []);
+
+  useEffect(() => {
+    const currentRef = sectionRef.current;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasAnimated) {
+            setHasAnimated(true);
+            animateCounters();
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, [hasAnimated, animateCounters]);
+
+  const formatStudents = (num) => {
+    if (num >= 1000) {
+      const kValue = num / 1000;
+      // If it's a whole number, don't show decimal
+      if (kValue % 1 === 0) {
+        return `${kValue}K`;
+      }
+      return `${kValue.toFixed(1)}K`;
+    }
+    return num.toString();
+  };
+
+  return (
+    <section ref={sectionRef} className="w-full bg-black py-16 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Years of Experience */}
+          <div className="text-center">
+            <div className="flex items-baseline justify-center gap-2 mb-2">
+              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+                {counts.years}
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+                +
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm md:text-base leading-tight">
+              Years Of
+              <br />
+              Experiences
+            </p>
+          </div>
+
+          {/* Training Branches */}
+          <div className="text-center">
+            <div className="flex items-baseline justify-center gap-2 mb-2">
+              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+                {counts.branches}
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+                +
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm md:text-base leading-tight">
+              Training
+              <br />
+              Branches
+            </p>
+          </div>
+
+          {/* Professional Coaches */}
+          <div className="text-center">
+            <div className="flex items-baseline justify-center gap-2 mb-2">
+              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+                {counts.coaches}
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+                +
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm md:text-base leading-tight">
+              Professional
+              <br />
+              Coaches
+            </p>
+          </div>
+
+          {/* Students Enrolled */}
+          <div className="text-center">
+            <div className="flex items-baseline justify-center gap-2 mb-2">
+              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+                {formatStudents(counts.students)}
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+                +
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm md:text-base leading-tight">
+              Students
+              <br />
+              Enrolled
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 

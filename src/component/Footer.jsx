@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,11 +7,13 @@ const Footer = () => {
       <div className="max-w-screen-2xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* LOGO + ABOUT */}
         <div>
-          <h2 className="text-3xl poppins-bold text-dangerRed tracking-wide">
-            TIGER MMA
-          </h2>
+          <Link to="/">
+            <h2 className="text-3xl poppins-bold text-dangerRed tracking-wide hover:text-red-600 transition-colors">
+              TIGER MMA
+            </h2>
+          </Link>
           <p className="mt-4 text-gray-400 text-sm leading-relaxed">
-            Delhi’s No.1 Martial Arts & Fitness Academy. Professional training
+            Delhi's No.1 Martial Arts & Fitness Academy. Professional training
             in MMA, Boxing, Kickboxing, Taekwondo, Kung-Fu, Weight-Loss &
             Self-Defense.
           </p>
@@ -18,25 +21,33 @@ const Footer = () => {
           <div className="mt-6 flex gap-4 items-center justify-center">
             <a
               href="https://www.facebook.com/mmatigers"
-              className="hover:text-dangerRed text-white text-xl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-dangerRed text-white text-xl transition-colors"
             >
               <i className="fa-brands fa-facebook-f"></i>
             </a>
             <a
               href="https://www.instagram.com/mmatigers"
-              className="hover:text-dangerRed text-white text-xl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-dangerRed text-white text-xl transition-colors"
             >
               <i className="fa-brands fa-instagram"></i>
             </a>
             <a
               href="https://www.youtube.com/mmatigers"
-              className="hover:text-dangerRed text-white text-xl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-dangerRed text-white text-xl transition-colors"
             >
               <i className="fa-brands fa-youtube"></i>
             </a>
             <a
               href="https://wa.me/919999443678"
-              className="hover:text-dangerRed text-white text-xl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-dangerRed text-white text-xl transition-colors"
             >
               <i className="fa-brands fa-whatsapp"></i>
             </a>
@@ -49,11 +60,46 @@ const Footer = () => {
             Quick Links
           </h3>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-dangerRed cursor-pointer">Home</li>
-            <li className="hover:text-dangerRed cursor-pointer">Programs</li>
-            <li className="hover:text-dangerRed cursor-pointer">Trainers</li>
-            <li className="hover:text-dangerRed cursor-pointer">Gallery</li>
-            <li className="hover:text-dangerRed cursor-pointer">Contact</li>
+            <li>
+              <Link
+                to="/"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/about"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/blogs"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Blogs
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/gallery"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -63,14 +109,54 @@ const Footer = () => {
             Programs
           </h3>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-dangerRed cursor-pointer">Kickboxing</li>
-            <li className="hover:text-dangerRed cursor-pointer">Boxing</li>
-            <li className="hover:text-dangerRed cursor-pointer">Taekwondo</li>
-            <li className="hover:text-dangerRed cursor-pointer">Kung-Fu</li>
-            <li className="hover:text-dangerRed cursor-pointer">
-              Self-Defense
+            <li>
+              <Link
+                to="/training-programs/5"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Kickboxing
+              </Link>
             </li>
-            <li className="hover:text-dangerRed cursor-pointer">Weight Loss</li>
+            <li>
+              <Link
+                to="/training-programs/2"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Boxing
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/training-programs/7"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Taekwondo
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/training-programs/8"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Kung-Fu
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/training-programs/10"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Self-Defense
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/training-programs/9"
+                className="hover:text-dangerRed transition-colors cursor-pointer block"
+              >
+                Weight Loss
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -82,20 +168,34 @@ const Footer = () => {
           <ul className="text-sm space-y-3">
             <li className="flex items-center gap-3">
               <i className="fa-solid fa-phone text-dangerRed"></i>
-              +91 9999443678
+              <a
+                href="tel:+919999443678"
+                className="hover:text-dangerRed transition-colors"
+              >
+                +91 9999443678
+              </a>
             </li>
             <li className="flex items-center gap-3">
               <i className="fa-solid fa-envelope text-dangerRed"></i>
-              support@mmatigers.com
+              <a
+                href="mailto:support@mmatigers.com"
+                className="hover:text-dangerRed transition-colors break-all"
+              >
+                support@mmatigers.com
+              </a>
             </li>
             <li className="flex items-center gap-3">
               <i className="fa-solid fa-location-dot text-dangerRed"></i>
-              4B-1 Tilak Nagar Metro Pillar No. 499, New Delhi, 110058
+              <span>
+                4B-1 Tilak Nagar Metro Pillar No. 499, New Delhi, 110058
+              </span>
             </li>
             <li className="flex items-center gap-3">
               <i className="fa-solid fa-location-dot text-dangerRed"></i>
-              Shop No. 11/22, Double Storey, Shivaji Marg, Block-2, Tilak Nagar,
-              New Delhi, 110058
+              <span>
+                Shop No. 11/22, Double Storey, Shivaji Marg, Block-2, Tilak
+                Nagar, New Delhi, 110058
+              </span>
             </li>
           </ul>
         </div>

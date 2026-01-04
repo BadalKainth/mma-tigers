@@ -1,9 +1,8 @@
-import React from "react";
-import img1 from "../images/img1.jpg";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import img2 from "../images/img2.jpg";
-import g7 from "../images/g7.png";
 import trainingsData from "../utils/trainingData";
 import TrainingSlider from "../component/slider";
+import main from "../images/main.jpeg";
 // import Card from "../component/Card";
 
 const Home = () => {
@@ -13,8 +12,8 @@ const Home = () => {
       <section>
         <div>
           <img
-            className="w-full h-full object-cover"
-            src={img1}
+            className="w-full h-screen object-cover"
+            src={main}
             alt="MMA Tigers"
           />
         </div>
@@ -33,7 +32,7 @@ const Home = () => {
           <Card />
         </div>
       </section> */}
-      <TrainingSlider trainingsData={trainingsData} img1={img1} />
+      <TrainingSlider trainingsData={trainingsData} />
 
       <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE BACKGROUND */}
@@ -46,7 +45,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/4761598/pexels-photo-4761598.jpeg"
               alt="Boxing Training"
               className="relative rounded-3xl w-full object-cover shadow-[0px_0px_40px_rgba(221,17,17,0.4)] group-hover:scale-105 transition duration-300"
             />
@@ -159,7 +158,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/864989/pexels-photo-864989.jpeg"
               alt="Boxing Training"
               className="relative rounded-3xl w-full object-cover shadow-[0px_0px_40px_rgba(221,17,17,0.4)] group-hover:scale-105 transition duration-300"
             />
@@ -181,7 +180,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/6295825/pexels-photo-6295825.jpeg"
               alt="Mixed Martial Arts Training"
               className="relative rounded-3xl w-full object-cover
         shadow-[0px_0px_40px_rgba(221,17,17,0.4)]
@@ -291,7 +290,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/17292197/pexels-photo-17292197.jpeg"
               alt="Brazilian Jiu-Jitsu Training"
               className="relative rounded-3xl w-full object-cover
         shadow-[0px_0px_40px_rgba(221,17,17,0.4)]
@@ -315,7 +314,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/598631/pexels-photo-598631.jpeg"
               alt="Kickboxing Training"
               className="relative rounded-3xl w-full object-cover
         shadow-[0px_0px_40px_rgba(221,17,17,0.4)]
@@ -428,7 +427,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/7045750/pexels-photo-7045750.jpeg"
               alt="Karate Training"
               className="relative rounded-3xl w-full object-cover
         shadow-[0px_0px_40px_rgba(221,17,17,0.4)]
@@ -452,7 +451,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/7045592/pexels-photo-7045592.jpeg"
               alt="Taekwondo Training"
               className="relative rounded-3xl w-full object-cover
         shadow-[0px_0px_40px_rgba(221,17,17,0.4)]
@@ -561,7 +560,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/4428290/pexels-photo-4428290.jpeg"
               alt="Kung Fu Training"
               className="relative rounded-3xl w-full object-cover
         shadow-[0px_0px_40px_rgba(221,17,17,0.4)]
@@ -585,7 +584,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
               alt="Weight Loss Training"
               className="relative rounded-3xl w-full object-cover
         shadow-[0px_0px_40px_rgba(221,17,17,0.4)]
@@ -697,7 +696,7 @@ const Home = () => {
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
 
             <img
-              src={g7}
+              src="https://images.pexels.com/photos/10823763/pexels-photo-10823763.jpeg"
               alt="Self-Defense Training"
               className="relative rounded-3xl w-full object-cover
         shadow-[0px_0px_40px_rgba(221,17,17,0.4)]
@@ -779,6 +778,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* STATISTICS SECTION */}
+      <StatisticsSection />
       {/* REGISTER SECTION */}
       <section className="w-full py-16 poppins-regular bg-[#0f0f0f] text-white">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -912,6 +914,171 @@ const Home = () => {
         </div>
       </section>
     </>
+  );
+};
+
+// Statistics Component with Animated Counters
+const STATS_TARGETS = {
+  years: 15,
+  branches: 20,
+  coaches: 50,
+  students: 5000,
+};
+
+const StatisticsSection = () => {
+  const [counts, setCounts] = useState({
+    years: 0,
+    branches: 0,
+    coaches: 0,
+    students: 0,
+  });
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const sectionRef = useRef(null);
+
+  const animateCounters = useCallback(() => {
+    const duration = 2000; // 2 seconds
+    const steps = 60;
+    const interval = duration / steps;
+
+    let currentStep = 0;
+
+    const timer = setInterval(() => {
+      currentStep++;
+      const progress = currentStep / steps;
+
+      // Easing function for smooth animation
+      const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+
+      setCounts({
+        years: Math.floor(STATS_TARGETS.years * easeOutQuart),
+        branches: Math.floor(STATS_TARGETS.branches * easeOutQuart),
+        coaches: Math.floor(STATS_TARGETS.coaches * easeOutQuart),
+        students: Math.floor(STATS_TARGETS.students * easeOutQuart),
+      });
+
+      if (currentStep >= steps) {
+        setCounts({
+          years: STATS_TARGETS.years,
+          branches: STATS_TARGETS.branches,
+          coaches: STATS_TARGETS.coaches,
+          students: STATS_TARGETS.students,
+        });
+        clearInterval(timer);
+      }
+    }, interval);
+  }, []);
+
+  useEffect(() => {
+    const currentRef = sectionRef.current;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasAnimated) {
+            setHasAnimated(true);
+            animateCounters();
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  }, [hasAnimated, animateCounters]);
+
+  const formatStudents = (num) => {
+    if (num >= 1000) {
+      const kValue = num / 1000;
+      // If it's a whole number, don't show decimal
+      if (kValue % 1 === 0) {
+        return `${kValue}K`;
+      }
+      return `${kValue.toFixed(1)}K`;
+    }
+    return num.toString();
+  };
+
+  return (
+    <section ref={sectionRef} className="w-full bg-black py-16 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Years of Experience */}
+          <div className="text-center">
+            <div className="flex items-baseline justify-center gap-2 mb-2">
+              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+                {counts.years}
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+                +
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm md:text-base leading-tight">
+              Years Of
+              <br />
+              Experiences
+            </p>
+          </div>
+
+          {/* Training Branches */}
+          <div className="text-center">
+            <div className="flex items-baseline justify-center gap-2 mb-2">
+              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+                {counts.branches}
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+                +
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm md:text-base leading-tight">
+              Training
+              <br />
+              Branches
+            </p>
+          </div>
+
+          {/* Professional Coaches */}
+          <div className="text-center">
+            <div className="flex items-baseline justify-center gap-2 mb-2">
+              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+                {counts.coaches}
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+                +
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm md:text-base leading-tight">
+              Professional
+              <br />
+              Coaches
+            </p>
+          </div>
+
+          {/* Students Enrolled */}
+          <div className="text-center">
+            <div className="flex items-baseline justify-center gap-2 mb-2">
+              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+                {formatStudents(counts.students)}
+              </span>
+              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+                +
+              </span>
+            </div>
+            <p className="text-gray-400 text-sm md:text-base leading-tight">
+              Students
+              <br />
+              Enrolled
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
