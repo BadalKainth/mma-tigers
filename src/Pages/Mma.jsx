@@ -1,10 +1,25 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 
 export default function Mma() {
   return (
     <main className="min-h-screen poppins-regular">
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
+        <SEO
+          title=" Tigers MMA – Best MMA, Kickboxing & Self-Defense Academy in Delhi"
+          description=" Join Tigers MMA — Best MMA & Kickboxing Academy in Tilak Nagar & Janakpuri, Delhi. Kids (3–13), Girls, Ladies & Adult Martial Arts | Weight Loss & Self-Defense Training | Free Trial Class."
+          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Best Mixed Martial Arts Training for Kids in Delhi
+Women Self-Defense & Kickboxing Academy in Janakpuri,
+MMA Gym for Beginners in Tilak Nagar, Delhi
+Combat Sports & Martial Arts for Teens Delhi      ,
+Top MMA Classes Near Me in West Delhi,
+Physical Fitness & Self-Defense Training for Adults Delhi,
+MMA and Kickboxing for Weight Loss Delhi,
+"
+          image="https://mmatigers.com/images/og-image.jpg"
+          url="https://mmatigers.com/training-programs/1"
+        />
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}

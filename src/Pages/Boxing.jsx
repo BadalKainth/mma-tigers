@@ -1,11 +1,18 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 
 export default function Boxing() {
   return (
     <main className="min-h-screen poppins-regular">
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
+        <SEO
+          title="Boxing Classes in Delhi | Best Boxing Gym in West Delhi Near Tilak Nagar – Tiger MMA"
+          description="Join MMA Tigers, the No.1 boxing gym in West Delhi. Professional boxing classes for kids, women, beginners & advanced athletes. Certified coaches, affordable fees & top training near Tilak Nagar Metro Station."
+          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Boxing Classes in Delhi|Best Boxing Gym in West Delhi|Kids Boxing Classes Delhi|Women’s Boxing Training Delhi|Professional Boxing Coaching Delhi"
+          url="https://mmatigers.com/training-programs/2"
+        />
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}

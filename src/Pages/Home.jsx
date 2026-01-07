@@ -3,11 +3,18 @@ import img2 from "../images/img2.jpg";
 import trainingsData from "../utils/trainingData";
 import TrainingSlider from "../component/slider";
 import main from "../images/main.jpeg";
+import SEO from "../component/SEO";
 // import Card from "../component/Card";
 
 const Home = () => {
   return (
     <>
+      <SEO
+        title="MMA Tigers - Delhi's No.1 Martial Arts & Fitness Academy"
+        description="Professional training in MMA, Boxing, Kickboxing, Taekwondo, Kung-Fu, Weight-Loss & Self-Defense. Join Delhi's premier martial arts academy with 15+ years of experience."
+        keywords="MMA, Boxing, Kickboxing, Taekwondo, Kung-Fu, Martial Arts, Fitness, Self-Defense, Delhi, Tilak Nagar, MMA Training Delhi"
+        url="https://mmatigers.com"
+      />
       {/* HERO IMAGE */}
       <section>
         <div>

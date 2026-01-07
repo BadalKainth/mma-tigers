@@ -1,10 +1,17 @@
 import React from "react";
 import img1 from "../images/img1.jpg"; // replace with real image
 import img2 from "../images/img2.jpg";
+import SEO from "../component/SEO";
 
 export default function AboutUs() {
   return (
     <main className="bg-[#0f0f0f] text-white poppins-regular">
+      <SEO
+        title="About MMA Tigers – Tilak Nagar, Delhi"
+        description="MMA Tigers is Delhi’s premier martial arts academy with over 9+ years of professional experience and more than 15,000 students trained across Delhi & NCR. We specialize in MMA, Karate, BJJ, Muay Thai, Kickboxing, Boxing, Taekwondo, Kung-Fu, Tai-Chi, Gymnastics, Judo & practical Self-Defense."
+        keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, About MMA Tigers, MMA Tigers Tilak Nagar, MMA Tigers Delhi, MMA Tigers NCR, MMA Tigers Gym, MMA Tigers Fitness, MMA Tigers Self-Defense, MMA Tigers Karate, MMA Tigers BJJ, MMA Tigers Muay Thai, MMA Tigers Kickboxing, MMA Tigers Boxing, MMA Tigers Taekwondo, MMA Tigers Kung-Fu, MMA Tigers Tai-Chi, MMA Tigers Gymnastics, MMA Tigers Judo, MMA Tigers Self-Defense"
+        url="https://mmatigers.com/about"
+      />
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white py-10 poppins-regular relative">
         {/* BACKGROUND IMAGE */}

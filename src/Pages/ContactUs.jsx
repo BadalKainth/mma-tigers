@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -27,6 +28,12 @@ const ContactUs = () => {
 
   return (
     <main className="bg-[#0f0f0f] text-white poppins-regular">
+      <SEO
+        title="Contact Us - MMA Tigers | Get in Touch | Delhi"
+        description="Contact MMA Tigers for professional martial arts training in Delhi. Call +91 9999443678 or visit us at Tilak Nagar. Free trial classes available."
+        keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar"
+        url="https://mmatigers.com/contact"
+      />
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white py-10 poppins-regular relative">
         {/* BACKGROUND IMAGE */}

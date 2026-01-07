@@ -1,11 +1,21 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 
 export default function Gymnastics() {
   return (
     <main className="min-h-screen poppins-regular">
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
+        <SEO
+          title="MMA Tigers – Best Gymnastics Classes in Delhi for Kids & Teens"
+          description="Join MMA Tigers Tilak Nagar for the best gymnastics classes in Delhi for kids & teens. Improve strength, flexibility & confidence with certified coaches. Free trial available!"
+          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar,gymnastics classes near me, gymnastics near me, gymnastics classes delhi, best gymnastics classes, gymnastics academy in delhi, nearby gymnastics, gymnastics clubs near me, gymnastics academy near me, gymnastics beginners delhi, kids gymnastics delhi, teens gymnastics delhi, junior gymnastics delhi, gymnastics training west delhi, gymnastics classes tilak nagar, kids gymnastics near me, Children’s Gymnastics Classes Delhi,Junior Gymnastics Delhi, Teens Gymnastics Delhi, Gymnastics Academy in Delhi,
+ Youth Gymnastics Near Me, Best Gymnastics Classes Delhi
+ Kids Gymnastics Near Me, West Delhi, Nearby Gymnastics Classes, Kids Gymnastics Delhi, Gymnastics Classes for Kids Near Me, Gymnastics Academy Near Me, Gymnastics for Beginners, Gymnastics Classes Tilak Nagar,
+"
+          url="https://mmatigers.com/training-programs/4"
+        />
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}

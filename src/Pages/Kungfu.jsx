@@ -1,11 +1,28 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 
 export default function KungFu() {
   return (
     <main className="min-h-screen poppins-regular">
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
+        <SEO
+          title="Tiger MMA | Best Kung Fu Classes in Delhi | Top MMA Gym for Kids, Teens & Adults"
+          description="Tiger MMA offers the best Kung Fu classes in Delhi, top MMA training, self-defense programs, kids martial arts, teen combat training, and adult MMA fitness. Learn tiger-style Kung Fu, Chinese martial arts, MMA striking, grappling, takedowns, and self-defense at Delhi’s leading martial arts academy. Enroll today."
+          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar,MMA gym in Delhi
+kids martial arts training,
+tiger style Kung Fu,
+Chinese martial arts academy,
+MMA for beginners,
+adult martial arts classes,
+self-defense classes Delhi,
+tiger claw technique training,
+traditional Kung Fu & MMA fusion ,
+Delhi NCR martial arts academy,
+"
+          url="https://mmatigers.com/training-programs/8"
+        />
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}

@@ -69,6 +69,27 @@ const trainingsData = [
     description:
       "A sport that involves lifting weights to improve strength, power, and endurance. Ideal for building discipline, self-defense skills, and physical fitness.",
   },
+  {
+    id: 11,
+    img: "https://images.pexels.com/photos/4761344/pexels-photo-4761344.jpeg",
+    title: "Personal Training",
+    description:
+      "One-on-one coaching in Boxing, Kickboxing, MMA, Self-Defence, Karate & Gymnastics focused on faster results, fitness, confidence, and real-world self-protection.",
+  },
+  {
+    id: 12,
+    img: "https://images.pexels.com/photos/7045738/pexels-photo-7045738.jpeg",
+    title: "Kids MMA",
+    description:
+      "A fun and structured martial arts program for children aged 3+ that builds confidence, discipline, coordination, self-defence skills, and strong character development.",
+  },
+  {
+    id: 13,
+    img: "https://images.pexels.com/photos/7045738/pexels-photo-7045738.jpeg",
+    title: "Home Training",
+    description:
+      "Professional martial arts training at your home with certified personal coaches and complete equipment. Train with Delhi’s most trusted home training academy and achieve fitness, confidence & self-protection.",
+  },
 ];
 
 export default trainingsData;

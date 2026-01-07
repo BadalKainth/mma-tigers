@@ -18,7 +18,9 @@ import AboutUs from "./Pages/About";
 import Blogs from "./Pages/Blogs";
 import BlogById from "./Pages/BlogById";
 import ContactUs from "./Pages/ContactUs";
-
+import PersonalTraining from "./Pages/PersonalTraining";
+import KidsMma from "./Pages/KidsMMA";
+import HomeTraining from "./Pages/HomeTraining";
 export default function App() {
   return (
     <>
@@ -36,11 +38,16 @@ export default function App() {
           <Route path="training-programs/8" element={<KungFu />} />
           <Route path="training-programs/9" element={<WeightLossPage />} />
           <Route path="training-programs/10" element={<SelfDefense />} />
+          <Route path="training-programs/11" element={<PersonalTraining />} />
+          <Route path="training-programs/12" element={<KidsMma />} />
+          <Route path="training-programs/13" element={<HomeTraining />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blogs/:id" element={<BlogById />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/personal-training" element={<PersonalTraining />} />
+          <Route path="/kids-mma" element={<KidsMma />} />
         </Routes>
         <Footer />
       </BrowserRouter>

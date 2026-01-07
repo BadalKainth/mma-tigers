@@ -1,11 +1,18 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 
 export default function Taekwondo() {
   return (
     <main className="min-h-screen poppins-regular">
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
+        <SEO
+          title="Best Taekwondo Academy in Delhi | Tiger MMA – Professional Martial Arts Training"
+          description="Delhi’s top Taekwondo academy for kids, teens, and adults. Improve fitness, confidence, and self-defense with expert instructors at Tiger MMA Tilak Nagar."
+          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar,Taekwondo classes near me, Taekwondo classes Delhi, Best Taekwondo classes in Delhi, Taekwondo training Delhi, Taekwondo academy in Delhi, Kids Taekwondo classes Delhi, Teens Taekwondo classes Delhi, Adult Taekwondo classes Delhi, Beginner Taekwondo classes Delhi, Advanced Taekwondo training Delhi, Taekwondo classes Janakpuri, Taekwondo classes Lajpat Nagar, Taekwondo classes Laxmi Nagar, Taekwondo classes Tilak Nagar, Taekwondo classes Najafgarh, Taekwondo classes Gurugram, Taekwondo classes Badarpur, Taekwondo classes Rohini, Taekwondo classes GTB Nagar, Taekwondo classes Rajouri Garden, Taekwondo classes Noida, Taekwondo classes Nagloi, Taekwondo classes Preet Vihar, Kids Taekwondo near me, Teens Taekwondo training Delhi, Adult Taekwondo near me, Taekwondo for beginners Delhi, Taekwondo for competition Delhi, Taekwondo self-defense classes Delhi, Martial arts Taekwondo classes Delhi, Taekwondo sparring classes Delhi, Taekwondo fitness training Delhi, Professional Taekwondo coaching Delhi, Taekwondo classes with certified instructors in Delhi, Best martial arts training for kids in Delhi, Taekwondo classes for self-defense in Delhi"
+          url="https://mmatigers.com/training-programs/7"
+        />
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}

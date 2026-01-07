@@ -1,11 +1,18 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 
 export default function Bjj() {
   return (
     <main className="min-h-screen poppins-regular">
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
+        <SEO
+          title="Best Brazilian Jiu-Jitsu Classes in Delhi | Tiger MMA Tilak Nagar – Kids, Teens & Adults BJJ Training"
+          description="Join the best Brazilian Jiu-Jitsu classes in Delhi at Tiger MMA Tilak Nagar. Expert BJJ training for kids, teens, adults, and professional fighters. Improve fitness, self-defense, discipline, and confidence in a safe, structured, and supportive environment. Enroll today!"
+          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Best Brazilian Jiu-Jitsu Classes in Delhi|Brazilian Jiu-Jitsu Training Delhi|Kids BJJ Classes Delhi|Adult & Teen Brazilian Jiu-Jitsu Delhi|Tigers MMA Tilak Nagar BJJ"
+          url="https://mmatigers.com/training-programs/3"
+        />
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}

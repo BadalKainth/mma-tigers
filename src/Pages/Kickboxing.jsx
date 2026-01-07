@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 // import FAQDropdown from "../components/FAQDropdown"; // your FAQ component
 
 export default function Kickboxing() {
@@ -7,6 +8,12 @@ export default function Kickboxing() {
     <main className="min-h-screen poppins-regular">
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
+        <SEO
+          title="Kickboxing Classes in Delhi – Kids, Teens & Adults | MMA Tigers Tilak Nagar"
+          description="Join MMA Tigers Tilak Nagar for kickboxing classes for kids, teens, women & adults in Delhi. Certified trainers, affordable classes & self-defense training."
+          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Kickboxing classes for kids in Tilak Nagar Delhi|Best youth kickboxing training near me in Delhi|Top kickboxing and self-defense classes for children in Delhi|Affordable kids kickboxing classes with certified trainers in Delhi|Kickboxing classes with certified trainers in Delhi-Tigers MMA|Delhi Kick-Boxing Classes for Adult in Tilak Nagar|Delhi Kick-Boxing classes for girls in Janakpuri|Delhi Kick-Boxing classes for kids in Janakpuri|Kick-Boxing classes for ladies in Janakpuri|Kick-Boxing classes for teens in Janakpuri"
+          url="https://mmatigers.com/training-programs/5"
+        />
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}

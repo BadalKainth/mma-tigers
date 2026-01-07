@@ -1,11 +1,19 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
+import SEO from "../component/SEO";
 
 export default function SelfDefensePage() {
   return (
     <div className="poppins-regular text-white bg-[#0f0f0f] min-h-screen">
       {/* HERO */}
       <section className="w-full bg-black text-white py-10 poppins-regular relative">
+        <SEO
+          title="Best Self-Defense Classes in Delhi | Tiger MMA – Practical Real-Life Training"
+          description="Join Tiger MMA for the best self-defense classes in Delhi. Learn real-life self-defense, awareness, and confidence with expert trainers. Women, kids & corporate training available."
+          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Tiger mma self-defense classes Delhi | Best self-defense classes in Delhi | Self-defense training Delhi | Women’s self-defense classes Delhi | Self-defense classes near me Delhi | Self-defense for girls in Delhi | Self-defense for kids in Delhi | Corporate self-defense workshop Delhi | Workplace safety training Delhi | Corporate safety training Delhi | Reality-based self-defense Delhi | Mixed martial arts self-defense Delhi | Taekwondo self-defense Delhi | Krav Maga self-defense Delhi | Practical self-defense training Delhi | Self-defense academy in Delhi | Self-defense classes for beginners Delhi
+| Advanced self-defense training Delhi | Self-defense course in Delhi | Affordable self-defense classes Delhi | Personal safety training Delhi | Self-defense coaching near me Delhi | Tiger MMA self-defense classes Delhi | Professional self-defense trainers Delhi"
+          url="https://mmatigers.com/training-programs/11"
+        />
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}
