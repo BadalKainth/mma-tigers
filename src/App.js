@@ -8,7 +8,7 @@ import Kickboxing from "./pages/Kickboxing";
 import Boxing from "./pages/Boxing";
 import Gymnastics from "./pages/Gymnastics";
 import Karate from "./pages/Karate";
-import Jiujitsu from "./pages/jiujitsu";
+import Jiujitsu from "./pages/Jiujitsu";
 import GalleryPage from "./pages/GalleryPage";
 import Taekwondo from "./pages/Taekwondo";
 import WeightLossPage from "./pages/Weightloss";
