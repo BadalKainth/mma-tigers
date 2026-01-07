@@ -9,9 +9,9 @@ export default function Kickboxing() {
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
         <SEO
-          title="Kickboxing Classes in Delhi – Kids, Teens & Adults | MMA Tigers Tilak Nagar"
-          description="Join MMA Tigers Tilak Nagar for kickboxing classes for kids, teens, women & adults in Delhi. Certified trainers, affordable classes & self-defense training."
-          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Kickboxing classes for kids in Tilak Nagar Delhi|Best youth kickboxing training near me in Delhi|Top kickboxing and self-defense classes for children in Delhi|Affordable kids kickboxing classes with certified trainers in Delhi|Kickboxing classes with certified trainers in Delhi-Tigers MMA|Delhi Kick-Boxing Classes for Adult in Tilak Nagar|Delhi Kick-Boxing classes for girls in Janakpuri|Delhi Kick-Boxing classes for kids in Janakpuri|Kick-Boxing classes for ladies in Janakpuri|Kick-Boxing classes for teens in Janakpuri"
+          title="Kickboxing Classes in Delhi – Kids, Teens & Adults | Tigers MMA Tilak Nagar"
+          description="Join Tigers MMA Tilak Nagar for kickboxing classes for kids, teens, women & adults in Delhi. Certified trainers, affordable classes & self-defense training."
+          keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Kickboxing classes for kids in Tilak Nagar Delhi|Best youth kickboxing training near me in Delhi|Top kickboxing and self-defense classes for children in Delhi|Affordable kids kickboxing classes with certified trainers in Delhi|Kickboxing classes with certified trainers in Delhi-Tigers MMA|Delhi Kick-Boxing Classes for Adult in Tilak Nagar|Delhi Kick-Boxing classes for girls in Janakpuri|Delhi Kick-Boxing classes for kids in Janakpuri|Kick-Boxing classes for ladies in Janakpuri|Kick-Boxing classes for teens in Janakpuri"
           url="https://mmatigers.com/training-programs/5"
         />
         {/* BACKGROUND IMAGE */}
@@ -39,7 +39,7 @@ export default function Kickboxing() {
           </p>
 
           <p className="text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            MMA Tigers Tilak Nagar offers professional kickboxing training for
+            Tigers MMA Tilak Nagar offers professional kickboxing training for
             kids, teens, women, beginners and adults. Learn kickboxing in a
             safe, structured and motivating environment with certified trainers.
           </p>
@@ -228,7 +228,7 @@ export default function Kickboxing() {
             All Ages
           </h2>
 
-          <h3 className="text-xl font-bold">Why Choose MMA Tigers?</h3>
+          <h3 className="text-xl font-bold">Why Choose Tigers MMA?</h3>
           <ul className="space-y-2 text-gray-700">
             <li>✔ Certified & experienced coaches</li>
             <li>✔ Flexible class timings</li>
@@ -256,7 +256,7 @@ export default function Kickboxing() {
         <section className="bg-white shadow-xl rounded-2xl p-10 border-l-4 border-dangerRed">
           <h2 className="text-3xl font-bold text-dangerRed mb-6">Conclusion</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            MMA Tigers Tilak Nagar and Janakpuri offer the most complete and
+            Tigers MMA Tilak Nagar and Janakpuri offer the most complete and
             trusted kickboxing programs in Delhi for kids, teens, women, and
             adults. Whether your goal is fitness, self-defense, or professional
             training, our certified coaches guide you with safe, structured, and
@@ -277,7 +277,7 @@ export default function Kickboxing() {
         <div className="space-y-10 text-gray-700 leading-relaxed">
           <div>
             <h3 className="font-semibold text-xl mb-2">
-              1. What age groups can join kickboxing classes at MMA Tigers Tilak
+              1. What age groups can join kickboxing classes at Tigers MMA Tilak
               Nagar?
             </h3>
             <p>
@@ -292,7 +292,7 @@ export default function Kickboxing() {
               2. Are the kickboxing trainers certified and experienced?
             </h3>
             <p>
-              Yes! MMA Tigers has certified and highly experienced kickboxing
+              Yes! Tigers MMA has certified and highly experienced kickboxing
               coaches who ensure correct technique and injury-free training.
             </p>
           </div>
@@ -332,7 +332,7 @@ export default function Kickboxing() {
 
           <div>
             <h3 className="font-semibold text-xl mb-2">
-              6. How to join kickboxing classes at MMA Tigers?
+              6. How to join kickboxing classes at Tigers MMA?
             </h3>
             <p>
               You can call us directly or book a Free Trial Class at our Tilak

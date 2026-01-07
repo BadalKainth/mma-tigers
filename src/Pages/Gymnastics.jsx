@@ -8,9 +8,9 @@ export default function Gymnastics() {
       {/* HERO SECTION */}
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
         <SEO
-          title="MMA Tigers – Best Gymnastics Classes in Delhi for Kids & Teens"
-          description="Join MMA Tigers Tilak Nagar for the best gymnastics classes in Delhi for kids & teens. Improve strength, flexibility & confidence with certified coaches. Free trial available!"
-          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar,gymnastics classes near me, gymnastics near me, gymnastics classes delhi, best gymnastics classes, gymnastics academy in delhi, nearby gymnastics, gymnastics clubs near me, gymnastics academy near me, gymnastics beginners delhi, kids gymnastics delhi, teens gymnastics delhi, junior gymnastics delhi, gymnastics training west delhi, gymnastics classes tilak nagar, kids gymnastics near me, Children’s Gymnastics Classes Delhi,Junior Gymnastics Delhi, Teens Gymnastics Delhi, Gymnastics Academy in Delhi,
+          title="Tigers MMA – Best Gymnastics Classes in Delhi for Kids & Teens"
+          description="Join Tigers MMA Tilak Nagar for the best gymnastics classes in Delhi for kids & teens. Improve strength, flexibility & confidence with certified coaches. Free trial available!"
+          keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar,gymnastics classes near me, gymnastics near me, gymnastics classes delhi, best gymnastics classes, gymnastics academy in delhi, nearby gymnastics, gymnastics clubs near me, gymnastics academy near me, gymnastics beginners delhi, kids gymnastics delhi, teens gymnastics delhi, junior gymnastics delhi, gymnastics training west delhi, gymnastics classes tilak nagar, kids gymnastics near me, Children’s Gymnastics Classes Delhi,Junior Gymnastics Delhi, Teens Gymnastics Delhi, Gymnastics Academy in Delhi,
  Youth Gymnastics Near Me, Best Gymnastics Classes Delhi
  Kids Gymnastics Near Me, West Delhi, Nearby Gymnastics Classes, Kids Gymnastics Delhi, Gymnastics Classes for Kids Near Me, Gymnastics Academy Near Me, Gymnastics for Beginners, Gymnastics Classes Tilak Nagar,
 "
@@ -32,7 +32,7 @@ export default function Gymnastics() {
           </h1>
 
           <p className="text-xl md:text-2xl poppins-semibold text-dangerRed tracking-widest">
-            🐯 MMA TIGERS – TILAK NAGAR • KIDS & TEENS GYMNASTICS ACADEMY
+            🐯 Tigers MMA – TILAK NAGAR • KIDS & TEENS GYMNASTICS ACADEMY
           </p>
 
           <p className="text-lg md:text-xl opacity-90 max-w-4xl mx-auto">
@@ -40,7 +40,7 @@ export default function Gymnastics() {
           </p>
 
           <p className="text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Join MMA Tigers Tilak Nagar for the best Gymnastics classes in
+            Join Tigers MMA Tilak Nagar for the best Gymnastics classes in
             Delhi. Improve strength, flexibility, balance, confidence & posture
             with certified coaches in a safe indoor training environment.
           </p>
@@ -173,7 +173,7 @@ export default function Gymnastics() {
         <div className="space-y-10 text-gray-700 leading-relaxed">
           <div>
             <h3 className="font-semibold text-xl mb-2">
-              1. What ages can learn gymnastics at MMA Tigers?
+              1. What ages can learn gymnastics at Tigers MMA?
             </h3>
             <p>
               We have separate batches: 3–6 years, 7–12 years & 13–17 years.

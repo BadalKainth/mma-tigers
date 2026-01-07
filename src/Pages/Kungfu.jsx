@@ -10,7 +10,7 @@ export default function KungFu() {
         <SEO
           title="Tiger MMA | Best Kung Fu Classes in Delhi | Top MMA Gym for Kids, Teens & Adults"
           description="Tiger MMA offers the best Kung Fu classes in Delhi, top MMA training, self-defense programs, kids martial arts, teen combat training, and adult MMA fitness. Learn tiger-style Kung Fu, Chinese martial arts, MMA striking, grappling, takedowns, and self-defense at Delhi’s leading martial arts academy. Enroll today."
-          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar,MMA gym in Delhi
+          keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar,MMA gym in Delhi
 kids martial arts training,
 tiger style Kung Fu,
 Chinese martial arts academy,

@@ -10,7 +10,7 @@ export default function Karate() {
         <SEO
           title="Karate Classes in Delhi – Best Training for Kids, Teens, Adults & Women | TigerMMA Tilak Nagar"
           description="Join TigerMMA Tilak Nagar for the best Karate classes in Delhi for kids, teens, adults and women. Learn self-defense, build confidence, and improve fitness with certified trainers."
-          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Karate classes in Delhi|Karate training in Tilak Nagar|Kids Karate classes in Delhi|Karate classes for women in Delhi|Best Karate academy in Delhi|Karate self-defense classes in Delhi|Karate classes for teens and adults|Karate coaching in Tilak Nagar Delhi|Certified Karate trainers in Delhi |Professional Karate training in Delhi"
+          keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Karate classes in Delhi|Karate training in Tilak Nagar|Kids Karate classes in Delhi|Karate classes for women in Delhi|Best Karate academy in Delhi|Karate self-defense classes in Delhi|Karate classes for teens and adults|Karate coaching in Tilak Nagar Delhi|Certified Karate trainers in Delhi |Professional Karate training in Delhi"
           url="https://mmatigers.com/training-programs/6"
         />
         {/* BACKGROUND IMAGE */}

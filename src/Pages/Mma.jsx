@@ -9,7 +9,7 @@ export default function Mma() {
         <SEO
           title=" Tigers MMA – Best MMA, Kickboxing & Self-Defense Academy in Delhi"
           description=" Join Tigers MMA — Best MMA & Kickboxing Academy in Tilak Nagar & Janakpuri, Delhi. Kids (3–13), Girls, Ladies & Adult Martial Arts | Weight Loss & Self-Defense Training | Free Trial Class."
-          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Best Mixed Martial Arts Training for Kids in Delhi
+          keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Best Mixed Martial Arts Training for Kids in Delhi
 Women Self-Defense & Kickboxing Academy in Janakpuri,
 MMA Gym for Beginners in Tilak Nagar, Delhi
 Combat Sports & Martial Arts for Teens Delhi      ,
@@ -35,7 +35,7 @@ MMA and Kickboxing for Weight Loss Delhi,
             MIXED MARTIAL ARTS
           </h1>
           <p className="text-xl md:text-2xl poppins-semibold text-dangerRed tracking-widest">
-            🐯 MMA TIGERS – PREMIER MARTIAL ARTS ACADEMY IN DELHI
+            🐯 Tigers MMA – PREMIER MARTIAL ARTS ACADEMY IN DELHI
           </p>
           <p className="text-lg md:text-xl opacity-90">
             Kickboxing • MMA • Wrestling • Grappling • Self-Defense • Tai Chi •

@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <SEO
-        title="MMA Tigers - Delhi's No.1 Martial Arts & Fitness Academy"
+        title="Tigers MMA - Delhi's No.1 Martial Arts & Fitness Academy"
         description="Professional training in MMA, Boxing, Kickboxing, Taekwondo, Kung-Fu, Weight-Loss & Self-Defense. Join Delhi's premier martial arts academy with 15+ years of experience."
         keywords="MMA, Boxing, Kickboxing, Taekwondo, Kung-Fu, Martial Arts, Fitness, Self-Defense, Delhi, Tilak Nagar, MMA Training Delhi"
         url="https://mmatigers.com"
@@ -21,7 +21,7 @@ const Home = () => {
           <img
             className="w-full h-screen object-cover"
             src={main}
-            alt="MMA Tigers"
+            alt="Tigers MMA"
           />
         </div>
       </section>
@@ -82,7 +82,7 @@ const Home = () => {
             </p>
 
             <p className="text-gray-300 leading-relaxed max-w-xl">
-              MMA Tigers offers elite boxing training for beginners, kids,
+              Tigers MMA offers elite boxing training for beginners, kids,
               teens, women, adults, and professionals. With certified coaches
               and high-energy sessions, our academy delivers unmatched fitness,
               power, and real fighting skills.
@@ -116,7 +116,7 @@ const Home = () => {
           <div className="space-y-6">
             {/* TOP BADGE */}
             <p className="text-dangerRed tracking-[0.3em] uppercase text-sm poppins-semibold">
-              🐯 MMA TIGERS – TILAK NAGAR • KIDS & TEENS GYMNASTICS ACADEMY
+              🐯 Tigers MMA – TILAK NAGAR • KIDS & TEENS GYMNASTICS ACADEMY
             </p>
 
             {/* MAIN HEADING */}
@@ -134,7 +134,7 @@ const Home = () => {
 
             {/* PARAGRAPH */}
             <p className="text-gray-300 leading-relaxed max-w-xl">
-              Join MMA Tigers Tilak Nagar for the best Gymnastics classes in
+              Join Tigers MMA Tilak Nagar for the best Gymnastics classes in
               Delhi. Improve strength, flexibility, balance, confidence &
               posture with certified coaches in a safe indoor training
               environment.
@@ -201,7 +201,7 @@ const Home = () => {
           {/* CONTENT */}
           <div className="space-y-6">
             <p className="text-[#DD1111] tracking-[0.3em] uppercase text-sm font-semibold">
-              🐯 MMA TIGERS – PREMIER MARTIAL ARTS ACADEMY IN DELHI
+              🐯 Tigers MMA – PREMIER MARTIAL ARTS ACADEMY IN DELHI
             </p>
 
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight uppercase">
@@ -352,7 +352,7 @@ const Home = () => {
             </p>
 
             <p className="text-gray-300 leading-relaxed max-w-xl">
-              MMA Tigers Tilak Nagar offers professional kickboxing training for
+              Tigers MMA Tilak Nagar offers professional kickboxing training for
               kids, teens, women, beginners and adults. Learn kickboxing in a
               safe, structured and motivating environment with certified
               trainers focused on real results.
@@ -927,8 +927,8 @@ const Home = () => {
 // Statistics Component with Animated Counters
 const STATS_TARGETS = {
   years: 15,
-  branches: 20,
-  coaches: 50,
+  branches: 2,
+  coaches: 10,
   students: 5000,
 };
 

@@ -29,9 +29,9 @@ const ContactUs = () => {
   return (
     <main className="bg-[#0f0f0f] text-white poppins-regular">
       <SEO
-        title="Contact Us - MMA Tigers | Get in Touch | Delhi"
-        description="Contact MMA Tigers for professional martial arts training in Delhi. Call +91 9999443678 or visit us at Tilak Nagar. Free trial classes available."
-        keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar"
+        title="Contact Us - Tigers MMA | Get in Touch | Delhi"
+        description="Contact Tigers MMA for professional martial arts training in Delhi. Call +91 9999443678 or visit us at Tilak Nagar. Free trial classes available."
+        keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar"
         url="https://mmatigers.com/contact"
       />
       {/* HERO SECTION */}
@@ -39,7 +39,7 @@ const ContactUs = () => {
         {/* BACKGROUND IMAGE */}
         <img
           src={img1}
-          alt="Contact MMA Tigers"
+          alt="Contact Tigers MMA"
           className="w-full h-full md:h-80 object-cover"
         />
 
@@ -318,7 +318,7 @@ const ContactUs = () => {
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="MMA Tigers Location 1"
+                  title="Tigers MMA Location 1"
                 ></iframe>
               </div>
               <p className="text-gray-300 text-sm">
@@ -340,7 +340,7 @@ const ContactUs = () => {
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="MMA Tigers Location 2"
+                  title="Tigers MMA Location 2"
                 ></iframe>
               </div>
               <p className="text-gray-300 text-sm">
@@ -390,8 +390,8 @@ const ContactUs = () => {
 // Statistics Component with Animated Counters
 const STATS_TARGETS = {
   years: 15,
-  branches: 20,
-  coaches: 50,
+  branches: 2,
+  coaches: 10,
   students: 5000,
 };
 

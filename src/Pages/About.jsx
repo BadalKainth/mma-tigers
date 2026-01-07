@@ -7,9 +7,9 @@ export default function AboutUs() {
   return (
     <main className="bg-[#0f0f0f] text-white poppins-regular">
       <SEO
-        title="About MMA Tigers – Tilak Nagar, Delhi"
-        description="MMA Tigers is Delhi’s premier martial arts academy with over 9+ years of professional experience and more than 15,000 students trained across Delhi & NCR. We specialize in MMA, Karate, BJJ, Muay Thai, Kickboxing, Boxing, Taekwondo, Kung-Fu, Tai-Chi, Gymnastics, Judo & practical Self-Defense."
-        keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, About MMA Tigers, MMA Tigers Tilak Nagar, MMA Tigers Delhi, MMA Tigers NCR, MMA Tigers Gym, MMA Tigers Fitness, MMA Tigers Self-Defense, MMA Tigers Karate, MMA Tigers BJJ, MMA Tigers Muay Thai, MMA Tigers Kickboxing, MMA Tigers Boxing, MMA Tigers Taekwondo, MMA Tigers Kung-Fu, MMA Tigers Tai-Chi, MMA Tigers Gymnastics, MMA Tigers Judo, MMA Tigers Self-Defense"
+        title="About Tigers MMA – Tilak Nagar, Delhi"
+        description="Tigers MMA is Delhi’s premier martial arts academy with over 9+ years of professional experience and more than 15,000 students trained across Delhi & NCR. We specialize in MMA, Karate, BJJ, Muay Thai, Kickboxing, Boxing, Taekwondo, Kung-Fu, Tai-Chi, Gymnastics, Judo & practical Self-Defense."
+        keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, About Tigers MMA, Tigers MMA Tilak Nagar, Tigers MMA Delhi, Tigers MMA NCR, Tigers MMA Gym, Tigers MMA Fitness, Tigers MMA Self-Defense, Tigers MMA Karate, Tigers MMA BJJ, Tigers MMA Muay Thai, Tigers MMA Kickboxing, Tigers MMA Boxing, Tigers MMA Taekwondo, Tigers MMA Kung-Fu, Tigers MMA Tai-Chi, Tigers MMA Gymnastics, Tigers MMA Judo, Tigers MMA Self-Defense"
         url="https://mmatigers.com/about"
       />
       {/* HERO SECTION */}
@@ -27,7 +27,7 @@ export default function AboutUs() {
         {/* TEXT CONTENT */}
         <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
           <h1 className="text-4xl md:text-6xl poppins-bold uppercase tracking-widest drop-shadow-2xl text-white">
-            About MMA Tigers
+            About Tigers MMA
           </h1>
           <p className="text-lg md:text-xl opacity-90 max-w-4xl mx-auto text-white">
             Strength • Flexibility • Discipline • Confidence
@@ -45,11 +45,11 @@ export default function AboutUs() {
       {/* INTRO SECTION */}
       <section className="max-w-6xl mx-auto px-6 py-12 space-y-6">
         <h2 className="text-dangerRed text-3xl poppins-bold uppercase tracking-wide">
-          Welcome to MMA Tigers – Tilak Nagar, Delhi
+          Welcome to Tigers MMA – Tilak Nagar, Delhi
         </h2>
 
         <p className="text-gray-300 leading-relaxed">
-          MMA Tigers is Delhi’s premier martial arts academy with over{" "}
+          Tigers MMA is Delhi’s premier martial arts academy with over{" "}
           <strong className="text-white">
             9+ years of professional experience
           </strong>

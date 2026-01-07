@@ -10,7 +10,7 @@ export default function Bjj() {
         <SEO
           title="Best Brazilian Jiu-Jitsu Classes in Delhi | Tiger MMA Tilak Nagar – Kids, Teens & Adults BJJ Training"
           description="Join the best Brazilian Jiu-Jitsu classes in Delhi at Tiger MMA Tilak Nagar. Expert BJJ training for kids, teens, adults, and professional fighters. Improve fitness, self-defense, discipline, and confidence in a safe, structured, and supportive environment. Enroll today!"
-          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Best Brazilian Jiu-Jitsu Classes in Delhi|Brazilian Jiu-Jitsu Training Delhi|Kids BJJ Classes Delhi|Adult & Teen Brazilian Jiu-Jitsu Delhi|Tigers MMA Tilak Nagar BJJ"
+          keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Best Brazilian Jiu-Jitsu Classes in Delhi|Brazilian Jiu-Jitsu Training Delhi|Kids BJJ Classes Delhi|Adult & Teen Brazilian Jiu-Jitsu Delhi|Tigers MMA Tilak Nagar BJJ"
           url="https://mmatigers.com/training-programs/3"
         />
         {/* BACKGROUND IMAGE */}

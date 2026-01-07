@@ -9,8 +9,8 @@ export default function Boxing() {
       <section className="w-full bg-black text-white  py-10 poppins-regular relative">
         <SEO
           title="Boxing Classes in Delhi | Best Boxing Gym in West Delhi Near Tilak Nagar – Tiger MMA"
-          description="Join MMA Tigers, the No.1 boxing gym in West Delhi. Professional boxing classes for kids, women, beginners & advanced athletes. Certified coaches, affordable fees & top training near Tilak Nagar Metro Station."
-          keywords="Contact MMA Tigers, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Boxing Classes in Delhi|Best Boxing Gym in West Delhi|Kids Boxing Classes Delhi|Women’s Boxing Training Delhi|Professional Boxing Coaching Delhi"
+          description="Join Tigers MMA, the No.1 boxing gym in West Delhi. Professional boxing classes for kids, women, beginners & advanced athletes. Certified coaches, affordable fees & top training near Tilak Nagar Metro Station."
+          keywords="Contact Tigers MMA, Martial Arts Delhi, Boxing Classes Delhi, MMA Training Contact, Tilak Nagar, Boxing Classes in Delhi|Best Boxing Gym in West Delhi|Kids Boxing Classes Delhi|Women’s Boxing Training Delhi|Professional Boxing Coaching Delhi"
           url="https://mmatigers.com/training-programs/2"
         />
         {/* BACKGROUND IMAGE */}
@@ -38,7 +38,7 @@ export default function Boxing() {
           </p>
 
           <p className="text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            MMA Tigers offers boxing classes in Delhi for beginners, kids,
+            Tigers MMA offers boxing classes in Delhi for beginners, kids,
             women, teens, adults, and professional athletes. Located near Tilak
             Nagar Metro Station, our academy is one of the finest boxing gyms in
             West Delhi.
@@ -69,7 +69,7 @@ export default function Boxing() {
         {/* WHY WE ARE BEST */}
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-dangerRed">
-            Why MMA Tigers Is the Best Boxing Gym in Delhi
+            Why Tigers MMA Is the Best Boxing Gym in Delhi
           </h2>
 
           <ul className="space-y-3 text-gray-800">
@@ -93,7 +93,7 @@ export default function Boxing() {
           </h2>
 
           <p className="text-gray-700 leading-relaxed">
-            MMA Tigers is easily accessible from:
+            Tigers MMA is easily accessible from:
           </p>
 
           <ul className="columns-2 md:columns-3 text-gray-700 space-y-1">
@@ -232,7 +232,7 @@ export default function Boxing() {
         {/* LOCATION SECTION */}
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-dangerRed">
-            Join MMA Tigers – Best Boxing Gym in West Delhi
+            Join Tigers MMA – Best Boxing Gym in West Delhi
           </h2>
 
           <p className="text-gray-700 leading-relaxed">
@@ -259,7 +259,7 @@ export default function Boxing() {
           <div className="space-y-4 text-gray-700">
             <p>
               <strong>1. What is the most popular boxing gym in Delhi?</strong>{" "}
-              MMA Tigers is ranked among the top, offering certified boxing
+              Tigers MMA is ranked among the top, offering certified boxing
               programs for all age groups.
             </p>
             <p>
@@ -291,11 +291,11 @@ export default function Boxing() {
         {/* CONCLUSION SECTION */}
         <div className="bg-white shadow-xl rounded-2xl p-10 border-l-4 border-dangerRed">
           <h2 className="text-3xl font-bold text-dangerRed mb-6">
-            Conclusion — Why MMA Tigers Is the Best Boxing Academy in Delhi
+            Conclusion — Why Tigers MMA Is the Best Boxing Academy in Delhi
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            MMA Tigers Delhi एक भरोसेमंद, सुरक्षित और Top-Rated Boxing Academy
+            Tigers MMA Delhi एक भरोसेमंद, सुरक्षित और Top-Rated Boxing Academy
             है जहाँ Beginners से लेकर Professional Fighters तक हर स्तर के
             छात्रों को प्रशिक्षण दिया जाता है। Certified Coaches, Modern
             Equipment और Safe Training Environment आपको सर्वोत्तम अनुभव प्रदान
@@ -306,13 +306,13 @@ export default function Boxing() {
             चाहे आप Fitness के लिए Boxing सीखना चाहते हों, Kids के लिए
             Discipline और Confidence बढ़ाना चाहते हों, Women’s Self-Defense की
             जरूरत हो, या फिर Professional Level पर Competition की तैयारी करनी हो
-            — MMA Tigers आपकी सभी जरूरतों को पूरा करने वाला Best Boxing Training
+            — Tigers MMA आपकी सभी जरूरतों को पूरा करने वाला Best Boxing Training
             Center है।
           </p>
 
           <p className="text-gray-700 leading-relaxed">
             Affordable Fees, Flexible Timings और Age 3–60+ के लिए अलग-अलग
-            Programs के साथ, MMA Tigers West Delhi का सबसे Complete और Trusted
+            Programs के साथ, Tigers MMA West Delhi का सबसे Complete और Trusted
             Boxing Training Destination है।
           </p>
         </div>
