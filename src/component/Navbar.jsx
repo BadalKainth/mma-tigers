@@ -37,7 +37,7 @@ const Navbar = () => {
     <nav className="bg-black shadow sticky top-0 z-50 w-full text-white uppercase">
       <div className=" w-2/3 mx-auto px-8 py-6 poppins-semibold text-xl flex justify-between items-center">
         <h1 className="carter-one-bold tracking-widest text-3xl hover:text-dangerRed hover:cursor-pointer">
-          <Link to="/"> MMA Tigers</Link>
+          <Link to="/"> Tiger MMA</Link>
         </h1>
         <div className="hidden lg:flex items-center justify-center space-x-6 poppins-semibold tracking-wider">
           <ul className="flex space-x-10">
