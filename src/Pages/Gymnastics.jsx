@@ -78,7 +78,7 @@ export default function Gymnastics() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/3763700/pexels-photo-3763700.jpeg"
             alt="Gymnastics Training"
             className="shadow-xl aspect-square h-[400px] object-cover w-full"
           />
@@ -87,7 +87,7 @@ export default function Gymnastics() {
         {/* TINY MOVERS 3–6 */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/3763700/pexels-photo-3763700.jpeg"
             alt="Kids Gymnastics"
             className="hidden md:block shadow-xl h-[400px] w-full aspect-square object-cover"
           />
@@ -132,7 +132,7 @@ export default function Gymnastics() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/3763700/pexels-photo-3763700.jpeg"
             alt="Junior Gymnastics"
             className="shadow-xl h-[400px] w-full aspect-square object-cover"
           />
@@ -141,7 +141,7 @@ export default function Gymnastics() {
         {/* TEENS 13–17 */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/3763700/pexels-photo-3763700.jpeg"
             alt="Teen Gymnastics"
             className="hidden md:block shadow-xl h-[400px] w-full aspect-square object-cover"
           />

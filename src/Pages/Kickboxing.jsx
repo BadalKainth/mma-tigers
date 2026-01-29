@@ -89,7 +89,7 @@ export default function Kickboxing() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8991302/pexels-photo-8991302.jpeg"
             alt="Kids Kickboxing"
             className="shadow-xl aspect-square h-[400px] object-cover"
           />
@@ -98,7 +98,7 @@ export default function Kickboxing() {
         {/* Youth Kickboxing */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8991302/pexels-photo-8991302.jpeg"
             alt="Youth Kickboxing"
             className="shadow-xl aspect-square h-[400px] hidden md:block object-cover"
           />
@@ -146,7 +146,7 @@ export default function Kickboxing() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8991302/pexels-photo-8991302.jpeg"
             alt="Ladies Kickboxing"
             className="shadow-xl aspect-square h-[400px] object-cover"
           />
@@ -155,7 +155,7 @@ export default function Kickboxing() {
         {/* Girls Kickboxing */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8991302/pexels-photo-8991302.jpeg"
             alt="Girls Kickboxing"
             className="shadow-xl aspect-square h-[400px] hidden md:block object-cover"
           />
@@ -192,7 +192,7 @@ export default function Kickboxing() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8991302/pexels-photo-8991302.jpeg"
             alt="Girls Kickboxing"
             className="shadow-xl aspect-square h-[400px] object-cover"
           />
@@ -201,7 +201,7 @@ export default function Kickboxing() {
         {/* Teens Kickboxing */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8991302/pexels-photo-8991302.jpeg"
             alt="Teens Kickboxing"
             className="shadow-xl aspect-square h-[400px] hidden md:block object-cover"
           />

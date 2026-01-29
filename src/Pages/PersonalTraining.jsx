@@ -60,7 +60,7 @@ export default function PersonalTraining() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/5646004/pexels-photo-5646004.jpeg"
             className="aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="Personal Training"
           />
@@ -69,7 +69,7 @@ export default function PersonalTraining() {
         {/* BOXING */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/5646004/pexels-photo-5646004.jpeg"
             className="hidden md:block aspect-square h-[400px] w-full object-cover shadow-xl"
             alt="Boxing Training"
           />
@@ -106,7 +106,7 @@ export default function PersonalTraining() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/5646004/pexels-photo-5646004.jpeg"
             className="aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="Kickboxing Training"
           />
@@ -115,7 +115,7 @@ export default function PersonalTraining() {
         {/* SELF DEFENCE */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/5646004/pexels-photo-5646004.jpeg"
             className="hidden md:block aspect-square h-[400px] w-full object-cover shadow-xl"
             alt="Self Defence"
           />

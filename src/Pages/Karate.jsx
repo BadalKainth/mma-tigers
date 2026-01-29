@@ -66,7 +66,7 @@ export default function Karate() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/10655518/pexels-photo-10655518.jpeg"
             alt="Karate"
             className="shadow-xl h-[400px] aspect-square w-full object-cover"
           />
@@ -75,7 +75,7 @@ export default function Karate() {
         {/* KIDS KARATE */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/10655518/pexels-photo-10655518.jpeg"
             alt="Kids Karate"
             className="hidden md:block shadow-xl h-[400px] w-full aspect-square object-cover"
           />
@@ -120,7 +120,7 @@ export default function Karate() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/10655518/pexels-photo-10655518.jpeg"
             alt="Teen Karate"
             className="shadow-xl h-[400px] aspect-square w-full object-cover"
           />
@@ -129,7 +129,7 @@ export default function Karate() {
         {/* ADULT KARATE */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/10655518/pexels-photo-10655518.jpeg"
             alt="Adult Karate"
             className="hidden md:block shadow-xl h-[400px] w-full aspect-square object-cover"
           />
@@ -174,7 +174,7 @@ export default function Karate() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/10655518/pexels-photo-10655518.jpeg"
             alt="Women Karate"
             className="shadow-xl h-[400px] aspect-square w-full object-cover"
           />

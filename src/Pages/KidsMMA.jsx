@@ -65,7 +65,7 @@ export default function KidsMma() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/7045738/pexels-photo-7045738.jpeg"
             className="aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="Kids MMA Training"
           />
@@ -74,7 +74,7 @@ export default function KidsMma() {
         {/* LIFE SKILLS */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/7045738/pexels-photo-7045738.jpeg"
             className="hidden md:block aspect-square h-[400px] w-full object-cover shadow-xl"
             alt="Life Skills"
           />
@@ -111,7 +111,7 @@ export default function KidsMma() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/7045738/pexels-photo-7045738.jpeg"
             className="aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="Safe MMA Training"
           />
@@ -120,7 +120,7 @@ export default function KidsMma() {
         {/* BENEFITS */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/7045738/pexels-photo-7045738.jpeg"
             className="hidden md:block aspect-square h-[400px] w-full object-cover shadow-xl"
             alt="Benefits"
           />

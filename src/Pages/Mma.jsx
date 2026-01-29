@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../images/img1.jpg";
 import SEO from "../component/SEO";
 
+
 export default function Mma() {
   return (
     <main className="min-h-screen poppins-regular">
@@ -93,7 +94,7 @@ MMA and Kickboxing for Weight Loss Delhi,
 
           <div className="relative group">
             <img
-              src={img1}
+              src="https://images.pexels.com/photos/598687/pexels-photo-598687.jpeg"
               alt="Kids MMA"
               className=" shadow-xl aspect-square h-[400px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -104,7 +105,7 @@ MMA and Kickboxing for Weight Loss Delhi,
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative group hidden md:block">
             <img
-              src={img1}
+              src="https://images.pexels.com/photos/598687/pexels-photo-598687.jpeg"
               alt="Girls Kickboxing"
               className=" shadow-xl aspect-square h-[400px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -184,7 +185,7 @@ MMA and Kickboxing for Weight Loss Delhi,
 
           <div className="relative group">
             <img
-              src={img1}
+              src="https://images.pexels.com/photos/598687/pexels-photo-598687.jpeg"
               alt="Teen MMA"
               className=" shadow-xl aspect-square h-[400px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -195,7 +196,7 @@ MMA and Kickboxing for Weight Loss Delhi,
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative group hidden md:block">
             <img
-              src={img1}
+              src="https://images.pexels.com/photos/598687/pexels-photo-598687.jpeg"
               alt="Adults MMA"
               className=" shadow-xl aspect-square h-[400px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -274,7 +275,7 @@ MMA and Kickboxing for Weight Loss Delhi,
 
           <div className="relative group">
             <img
-              src={img1}
+              src="https://images.pexels.com/photos/598687/pexels-photo-598687.jpeg"
               alt="Wrestling"
               className=" shadow-xl aspect-square h-[400px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -285,7 +286,7 @@ MMA and Kickboxing for Weight Loss Delhi,
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative group hidden md:block">
             <img
-              src={img1}
+              src="https://images.pexels.com/photos/598687/pexels-photo-598687.jpeg"
               alt="Tai Chi"
               className=" shadow-xl aspect-square h-[400px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />

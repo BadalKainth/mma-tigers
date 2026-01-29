@@ -112,7 +112,7 @@ Delhi NCR martial arts academy,
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8611367/pexels-photo-8611367.jpeg"
             alt="Kids Kung Fu"
             className="shadow-xl aspect-square h-[400px] object-cover"
           />
@@ -121,7 +121,7 @@ Delhi NCR martial arts academy,
         {/* Teens Kung Fu */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8611367/pexels-photo-8611367.jpeg"
             alt="Teens Kung Fu"
             className="shadow-xl aspect-square h-[400px] hidden md:block object-cover"
           />
@@ -167,7 +167,7 @@ Delhi NCR martial arts academy,
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8611367/pexels-photo-8611367.jpeg"
             alt="Adults Kung Fu"
             className="shadow-xl aspect-square h-[400px] object-cover"
           />

@@ -60,7 +60,7 @@ export default function HomeTraining() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/3985249/pexels-photo-3985249.jpeg"
             className="aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="Home Training"
           />
@@ -69,7 +69,7 @@ export default function HomeTraining() {
         {/* HOME MUAY THAI */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/3985249/pexels-photo-3985249.jpeg"
             className="hidden md:block aspect-square h-[400px] w-full object-cover shadow-xl"
             alt="Muay Thai Training"
           />
@@ -104,7 +104,7 @@ export default function HomeTraining() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/3985249/pexels-photo-3985249.jpeg"
             className="aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="Kickboxing Training"
           />
@@ -113,7 +113,7 @@ export default function HomeTraining() {
         {/* SELF DEFENSE */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/3985249/pexels-photo-3985249.jpeg"
             className="hidden md:block aspect-square h-[400px] w-full object-cover shadow-xl"
             alt="Self Defense Training"
           />

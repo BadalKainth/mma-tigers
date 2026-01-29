@@ -66,7 +66,7 @@ export default function Bjj() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8612000/pexels-photo-8612000.jpeg"
             className="aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="BJJ Training"
           />
@@ -75,7 +75,7 @@ export default function Bjj() {
         {/* KIDS BJJ */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8612000/pexels-photo-8612000.jpeg"
             className="hidden md:block aspect-square h-[400px] w-full object-cover shadow-xl"
             alt="Kids BJJ"
           />
@@ -119,7 +119,7 @@ export default function Bjj() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8612000/pexels-photo-8612000.jpeg"
             className="aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="Teen Adult BJJ"
           />
@@ -128,7 +128,7 @@ export default function Bjj() {
         {/* ADVANCED BJJ */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/8612000/pexels-photo-8612000.jpeg"
             className="hidden md:block aspect-square h-[400px] w-full shadow-xl object-cover"
             alt="Advanced BJJ"
           />

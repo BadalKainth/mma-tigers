@@ -89,7 +89,7 @@ export default function Taekwondo() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/7988956/pexels-photo-7988956.jpeg"
             alt="Kids Taekwondo"
             className="shadow-xl aspect-square h-[400px] object-cover"
           />
@@ -98,7 +98,7 @@ export default function Taekwondo() {
         {/* Teens Taekwondo */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/7988956/pexels-photo-7988956.jpeg"
             alt="Teens Taekwondo"
             className="shadow-xl aspect-square h-[400px] hidden md:block object-cover"
           />
@@ -147,7 +147,7 @@ export default function Taekwondo() {
           </div>
 
           <img
-            src={img1}
+            src="https://images.pexels.com/photos/7988956/pexels-photo-7988956.jpeg"
             alt="Adults Taekwondo"
             className="shadow-xl aspect-square h-[400px] object-cover"
           />
