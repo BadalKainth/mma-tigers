@@ -369,7 +369,7 @@ const ContactUs = () => {
               <h3 className="text-xl font-semibold text-dangerRed mb-3">
                 Evening Sessions
               </h3>
-              <p className="text-gray-300">5:00 PM - 9:00 PM</p>
+              <p className="text-gray-300">4:00 PM - 10:00 PM</p>
             </div>
             <div className="bg-gray-900/50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-dangerRed mb-3">
