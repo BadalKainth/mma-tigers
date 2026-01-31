@@ -21,10 +21,12 @@ import ContactUs from "./Pages/ContactUs";
 import PersonalTraining from "./Pages/PersonalTraining";
 import KidsMma from "./Pages/KidsMMA";
 import HomeTraining from "./Pages/HomeTraining";
+import ScrollToTop from "./component/ScrollToTop";
 export default function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
