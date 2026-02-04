@@ -23,31 +23,29 @@ export default function Bjj() {
         {/* BLACK OVERLAY 70% */}
         <div className="absolute inset-0 bg-black/70"></div>
 
-        <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-wide">
+        <div className="w-10/12 mx-auto text-center space-y-2 md:space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white px-2">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold tracking-wide">
             BRAZILIAN JIU-JITSU (BJJ)
           </h1>
 
-          <p className="text-xl md:text-2xl poppins-semibold text-dangerRed tracking-widest">
+          <p className="text-xs sm:text-sm md:text-xl lg:text-2xl poppins-semibold text-dangerRed tracking-wide md:tracking-widest">
             🐯 BEST BRAZILIAN JIU-JITSU CLASSES IN DELHI – TIGERS MMA
           </p>
 
-          <p className="text-lg md:text-xl opacity-90 max-w-4xl mx-auto">
-            Learn Brazilian Jiu-Jitsu in a structured, safe & motivating
-            environment. Kids, Teens, Adults & Professionals — all levels
-            welcome.
+          <p className="text-xs sm:text-sm md:text-lg lg:text-xl opacity-90">
+            Ground Fighting • Grappling • Submissions • Self-Defense • Competition
           </p>
 
-          <p className="text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Tigers MMA Tilak Nagar offers Delhi’s leading Brazilian Jiu-Jitsu
-            (BJJ) training with expert coaches, practical self-defense, ground
-            techniques, submissions, fitness training & competition preparation.
+          <p className="text-gray-300 max-w-4xl mx-auto leading-relaxed text-xs md:text-base">
+            Welcome to Tigers MMA — Delhi's premier Brazilian Jiu-Jitsu Academy
+            for kids, teens, women, and adults. Learn ground control, submissions,
+            and real-world self-defense from certified BJJ coaches.
           </p>
         </div>
       </section>
 
       {/* MAIN CONTENT */}
-      <section className="w-7/12 mx-auto py-20 space-y-20">
+      <section className="w-10/12 md:w-7/12 mx-auto py-20 space-y-20">
         {/* WHY TIGERS MMA */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 border-l-4 border-dangerRed pl-6">
@@ -153,7 +151,7 @@ export default function Bjj() {
         </div>
       </section>
       {/* FAQ SECTION */}
-      <section className="w-7/12 mx-auto py-20">
+      <section className="w-10/12 md:w-7/12 mx-auto py-20">
         <h2 className="text-3xl font-bold text-dangerRed mb-10">
           Frequently Asked Questions (FAQs)
         </h2>

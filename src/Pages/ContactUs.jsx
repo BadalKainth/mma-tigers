@@ -47,8 +47,8 @@ const ContactUs = () => {
         <div className="absolute inset-0 bg-black/70"></div>
 
         {/* TEXT CONTENT */}
-        <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-4xl md:text-6xl poppins-bold uppercase tracking-widest drop-shadow-2xl text-white">
+        <div className="w-10/12 mx-auto text-center space-y-2 md:space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white px-2">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl poppins-bold uppercase tracking-widest drop-shadow-2xl text-white">
             Contact Us
           </h1>
           <p className="text-lg md:text-xl opacity-90 max-w-4xl mx-auto text-white">
@@ -476,20 +476,20 @@ const StatisticsSection = () => {
   };
 
   return (
-    <section ref={sectionRef} className="w-full bg-black py-16 px-6">
+    <section ref={sectionRef} className="w-full bg-black py-10 md:py-16 px-4 md:px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
           {/* Years of Experience */}
-          <div className="text-center">
-            <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+          <div className="text-center bg-gray-900/50 rounded-xl p-4 md:p-6 aspect-square lg:aspect-auto flex flex-col items-center justify-center">
+            <div className="flex items-baseline justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+              <span className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-white poppins-bold">
                 {counts.years}
               </span>
-              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+              <span className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-dangerRed poppins-bold">
                 +
               </span>
             </div>
-            <p className="text-gray-400 text-sm md:text-base leading-tight">
+            <p className="text-gray-400 text-sm sm:text-base md:text-base leading-tight">
               Years Of
               <br />
               Experiences
@@ -497,16 +497,16 @@ const StatisticsSection = () => {
           </div>
 
           {/* Training Branches */}
-          <div className="text-center">
-            <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+          <div className="text-center bg-gray-900/50 rounded-xl p-4 md:p-6 aspect-square lg:aspect-auto flex flex-col items-center justify-center">
+            <div className="flex items-baseline justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+              <span className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-white poppins-bold">
                 {counts.branches}
               </span>
-              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+              <span className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-dangerRed poppins-bold">
                 +
               </span>
             </div>
-            <p className="text-gray-400 text-sm md:text-base leading-tight">
+            <p className="text-gray-400 text-sm sm:text-base md:text-base leading-tight">
               Training
               <br />
               Branches
@@ -514,16 +514,16 @@ const StatisticsSection = () => {
           </div>
 
           {/* Professional Coaches */}
-          <div className="text-center">
-            <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+          <div className="text-center bg-gray-900/50 rounded-xl p-4 md:p-6 aspect-square lg:aspect-auto flex flex-col items-center justify-center">
+            <div className="flex items-baseline justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+              <span className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-white poppins-bold">
                 {counts.coaches}
               </span>
-              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+              <span className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-dangerRed poppins-bold">
                 +
               </span>
             </div>
-            <p className="text-gray-400 text-sm md:text-base leading-tight">
+            <p className="text-gray-400 text-sm sm:text-base md:text-base leading-tight">
               Professional
               <br />
               Coaches
@@ -531,16 +531,16 @@ const StatisticsSection = () => {
           </div>
 
           {/* Students Enrolled */}
-          <div className="text-center">
-            <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+          <div className="text-center bg-gray-900/50 rounded-xl p-4 md:p-6 aspect-square lg:aspect-auto flex flex-col items-center justify-center">
+            <div className="flex items-baseline justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+              <span className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-white poppins-bold">
                 {formatStudents(counts.students)}
               </span>
-              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+              <span className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-dangerRed poppins-bold">
                 +
               </span>
             </div>
-            <p className="text-gray-400 text-sm md:text-base leading-tight">
+            <p className="text-gray-400 text-sm sm:text-base md:text-base leading-tight">
               Students
               <br />
               Enrolled

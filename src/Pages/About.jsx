@@ -25,8 +25,8 @@ export default function AboutUs() {
         <div className="absolute inset-0 bg-black/70"></div>
 
         {/* TEXT CONTENT */}
-        <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-4xl md:text-6xl poppins-bold uppercase tracking-widest drop-shadow-2xl text-white">
+        <div className="w-10/12 mx-auto text-center space-y-2 md:space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white px-2">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl poppins-bold uppercase tracking-widest drop-shadow-2xl text-white">
             About Tigers MMA
           </h1>
           <p className="text-lg md:text-xl opacity-90 max-w-4xl mx-auto text-white">

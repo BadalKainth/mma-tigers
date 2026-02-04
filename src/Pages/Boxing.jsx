@@ -23,12 +23,12 @@ export default function Boxing() {
         {/* BLACK OVERLAY 70% */}
         <div className="absolute inset-0 bg-black/70"></div>
 
-        <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-wide">
+        <div className="w-10/12 mx-auto text-center space-y-2 md:space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white px-2">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold tracking-wide">
             BOXING CLASSES
           </h1>
 
-          <p className="text-xl md:text-2xl poppins-semibold text-dangerRed tracking-widest">
+          <p className="text-xs sm:text-sm md:text-xl lg:text-2xl poppins-semibold text-dangerRed tracking-widest">
             🥊 BOXING CLASSES IN DELHI — BEST BOXING GYM & TRAINING ACADEMY
           </p>
 
@@ -47,7 +47,7 @@ export default function Boxing() {
       </section>
 
       {/* MAIN BOXING INFO */}
-      <section className="w-7/12 mx-auto py-20 space-y-12">
+      <section className="w-10/12 md:w-7/12 mx-auto py-20 space-y-12">
         <div className="space-y-6">
           <h2 className="text-4xl font-extrabold text-dangerRed">
             Boxing Classes in Delhi – Train at the Best Boxing Gym
@@ -318,19 +318,19 @@ export default function Boxing() {
         </div>
       </section>
       {/* REGISTER SECTION */}
-      <section className="w-full py-16 poppins-regular bg-[#0f0f0f] text-white">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <section className="w-full py-12 md:py-16 px-4 md:px-6 poppins-regular bg-[#0f0f0f] text-white">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* LEFT CONTENT */}
-          <div className="space-y-6">
-            <h2 className="text-4xl poppins-bold tracking-widest uppercase">
+          <div className="space-y-4 md:space-y-6 text-center lg:text-left">
+            <h2 className="text-2xl md:text-4xl poppins-bold tracking-wider md:tracking-widest uppercase">
               Register Now
             </h2>
 
-            <h3 className="text-xl font-semibold uppercase tracking-wide">
+            <h3 className="text-base md:text-xl font-semibold uppercase tracking-wide">
               Schedule your free trial class at the nearest branch of Knockout
             </h3>
 
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-400 leading-relaxed text-sm md:text-base">
               We provide the best MMA training for our members. The free trial
               class lets you get a taste of what is in store for you. You will
               also get a consultation from one of our experts who will guide you
@@ -340,8 +340,8 @@ export default function Boxing() {
           </div>
 
           {/* RIGHT FORM */}
-          <div className="w-full bg-[#1a1a1a] shadow-2xl p-8">
-            <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="w-full bg-[#1a1a1a] shadow-2xl p-4 md:p-8">
+            <form className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div className="flex flex-col">
                 <label className="text-sm mb-1 tracking-wide">Full Name</label>
                 <input

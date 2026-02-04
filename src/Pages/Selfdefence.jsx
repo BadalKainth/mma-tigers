@@ -25,14 +25,14 @@ export default function SelfDefensePage() {
         <div className="absolute inset-0 bg-black/70"></div>
 
         {/* TEXT CONTENT */}
-        <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
+        <div className="w-10/12 mx-auto text-center space-y-2 md:space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white px-2">
           {/* MAIN HEADING */}
-          <h1 className="text-3xl md:text-5xl poppins-bold uppercase tracking-widest text-white drop-shadow-2xl">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl poppins-bold uppercase tracking-widest text-white drop-shadow-2xl">
             Self-Defense Classes
           </h1>
 
           {/* SUB HEADING — YOUR PROVIDED TEXT */}
-          <p className="text-xl md:text-2xl poppins-semibold text-dangerRed tracking-widest max-w-3xl">
+          <p className="text-xs sm:text-sm md:text-xl lg:text-2xl poppins-semibold text-dangerRed tracking-widest max-w-3xl">
             Self-Defense Classes in Delhi – Practical Training for Everyday
             Safety
           </p>

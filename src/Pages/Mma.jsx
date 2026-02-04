@@ -31,11 +31,11 @@ MMA and Kickboxing for Weight Loss Delhi,
         {/* BLACK OVERLAY 70% */}
         <div className="absolute inset-0 bg-black/70"></div>
 
-        <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-wide text-white">
+        <div className="w-10/12 mx-auto text-center space-y-2 md:space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white px-2">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold tracking-wide text-white">
             MIXED MARTIAL ARTS
           </h1>
-          <p className="text-xl md:text-2xl poppins-semibold text-dangerRed tracking-widest">
+          <p className="text-xs sm:text-sm md:text-xl lg:text-2xl poppins-semibold text-dangerRed tracking-widest">
             🐯 Tigers MMA – PREMIER MARTIAL ARTS ACADEMY IN DELHI
           </p>
           <p className="text-lg md:text-xl opacity-90">
@@ -51,7 +51,7 @@ MMA and Kickboxing for Weight Loss Delhi,
         </div>
       </section>
 
-      <section className="w-7/12 mx-auto py-5 space-y-5 poppins-regular">
+      <section className="w-10/12 md:w-7/12 mx-auto py-5 space-y-5 poppins-regular">
         {/* Kids MMA */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 border-l-4 border-dangerRed pl-6">

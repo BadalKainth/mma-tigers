@@ -16,11 +16,11 @@ export default function WeightLossPage() {
         {/* BLACK OVERLAY 70% */}
         <div className="absolute inset-0 bg-black/70"></div>
 
-        <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-3xl md:text-5xl poppins-bold uppercase tracking-widest text-white text-center drop-shadow-2xl">
+        <div className="w-10/12 mx-auto text-center space-y-2 md:space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white px-2">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl poppins-bold uppercase tracking-widest text-white text-center drop-shadow-2xl">
             Weight Loss Classes
           </h1>
-          <p className="text-xl md:text-2xl poppins-semibold text-dangerRed tracking-widest max-w-3xl">
+          <p className="text-xs sm:text-sm md:text-xl lg:text-2xl poppins-semibold text-dangerRed tracking-widest max-w-3xl">
             Weight Loss Classes in Delhi | Tiger Institute India | Best Fat Loss
             & Body Transformation Courses
           </p>

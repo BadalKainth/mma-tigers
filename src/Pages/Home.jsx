@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
+import { Link } from "react-router-dom";
 import img2 from "../images/img2.jpg";
 import trainingsData from "../utils/trainingData";
 import TrainingSlider from "../component/slider";
@@ -19,33 +20,20 @@ const Home = () => {
       <section>
         <div>
           <img
-            className="w-full h-screen object-cover"
+            className="w-full h-[30vh] md:h-screen object-cover"
             src={main}
             alt="Tigers MMA"
           />
         </div>
       </section>
-      {/* TRAINING PROGRAMS */}
-      {/* <section className="w-full poppins-regular flex text-white flex-col bg-[#0f0f0f] items-center justify-center">
-        <h2 className="text-4xl poppins-bold my-10 tracking-widest uppercase">
-          Our Training Programs
-        </h2>
-        <div className="w-full text-center grid grid-cols-2">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
-      </section> */}
+
       <TrainingSlider trainingsData={trainingsData} />
 
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE BACKGROUND */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* LEFT — SPORTY IMAGE FRAME */}
           <div className="relative group">
             {/* Outer Glow Frame */}
@@ -97,21 +85,21 @@ const Home = () => {
                 Join Now
               </a>
 
-              <a
-                href="training-programs/2"
+              <Link
+                to="/training-programs/2"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest hover:bg-white hover:text-black transition-all"
               >
-                View Classes
-              </a>
+                View Program
+              </Link>
             </div>
           </div>
         </div>
       </section>
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE BACKGROUND */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* RIGHT CONTENT */}
           <div className="space-y-6">
             {/* TOP BADGE */}
@@ -150,13 +138,13 @@ const Home = () => {
                 Join Now
               </a>
 
-              <a
-                href="training-programs/4"
+              <Link
+                to="/training-programs/4"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
                hover:bg-white hover:text-black transition-all"
               >
-                View Classes
-              </a>
+                View Program
+              </Link>
             </div>
           </div>
           {/* LEFT — SPORTY IMAGE FRAME */}
@@ -177,11 +165,11 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* IMAGE */}
           <div className="relative group">
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
@@ -232,22 +220,22 @@ const Home = () => {
                 Join Now
               </a>
 
-              <a
-                href="/training-programs/1"
+              <Link
+                to="/training-programs/1"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-white hover:text-black transition-all"
               >
-                View Programs
-              </a>
+                View Program
+              </Link>
             </div>
           </div>
         </div>
       </section>
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* CONTENT */}
           <div className="space-y-6">
             <p className="text-[#DD1111] tracking-[0.3em] uppercase text-sm font-semibold">
@@ -282,13 +270,13 @@ const Home = () => {
                 Join BJJ Today
               </a>
 
-              <a
-                href="/training-programs/3"
+              <Link
+                to="/training-programs/3"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-white hover:text-black transition-all"
               >
-                View BJJ Program
-              </a>
+                View Program
+              </Link>
             </div>
           </div>
 
@@ -311,11 +299,11 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* IMAGE */}
           <div className="relative group">
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
@@ -367,23 +355,23 @@ const Home = () => {
                 Join Kickboxing
               </a>
 
-              <a
-                href="/training-programs/5"
+              <Link
+                to="/training-programs/5"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-white hover:text-black transition-all"
               >
                 View Program
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* CONTENT */}
           <div className="space-y-6">
             <p className="text-[#DD1111] tracking-[0.3em] uppercase text-sm font-semibold">
@@ -419,13 +407,13 @@ const Home = () => {
                 Join Karate
               </a>
 
-              <a
-                href="/training-programs/6"
+              <Link
+                to="/training-programs/6"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-white hover:text-black transition-all"
               >
-                View Karate Program
-              </a>
+                View Program
+              </Link>
             </div>
           </div>
 
@@ -448,11 +436,11 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* IMAGE */}
           <div className="relative group">
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
@@ -499,26 +487,26 @@ const Home = () => {
                 className="bg-[#DD1111] px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-[#ff2a2a] shadow-md shadow-red-900/40 transition-all"
               >
-                Start Free Trial
+                Join Taekwondo
               </a>
 
-              <a
-                href="/training-programs/7"
+              <Link
+                to="/training-programs/7"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-white hover:text-black transition-all"
               >
-                View Taekwondo Program
-              </a>
+                View Program
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* CONTENT */}
           <div className="space-y-6">
             <p className="text-[#DD1111] tracking-[0.3em] uppercase text-sm font-semibold">
@@ -552,13 +540,13 @@ const Home = () => {
                 Join Kung Fu
               </a>
 
-              <a
-                href="/training-programs/8"
+              <Link
+                to="/training-programs/8"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-white hover:text-black transition-all"
               >
-                View Kung Fu Program
-              </a>
+                View Program
+              </Link>
             </div>
           </div>
 
@@ -581,11 +569,11 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* IMAGE */}
           <div className="relative group">
             <div className="absolute -inset-4 bg-[#DD1111]/40 blur-2xl rounded-3xl opacity-60 group-hover:opacity-100 transition"></div>
@@ -637,23 +625,23 @@ const Home = () => {
                 Start Transformation
               </a>
 
-              <a
-                href="/training-programs/9"
+              <Link
+                to="/training-programs/9"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-white hover:text-black transition-all"
               >
                 View Program
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="relative w-full bg-black text-white py-24 px-6 md:px-16 overflow-hidden">
+      <section className="relative w-full bg-black text-white py-12 md:py-24 px-4 md:px-16 overflow-hidden">
         {/* ANGLED RED STRIPE */}
         <div className="absolute inset-0 -skew-y-2 bg-gradient-to-r from-[#DD1111]/20 to-transparent"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 items-center">
           {/* CONTENT */}
           <div className="space-y-6">
             <p className="text-[#DD1111] tracking-[0.3em] uppercase text-sm font-semibold">
@@ -688,13 +676,13 @@ const Home = () => {
                 Join Self-Defense
               </a>
 
-              <a
-                href="/training-programs/10"
+              <Link
+                to="/training-programs/10"
                 className="border border-gray-500 px-8 py-3 rounded-xl uppercase font-bold tracking-widest
           hover:bg-white hover:text-black transition-all"
               >
                 View Program
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -778,10 +766,10 @@ const Home = () => {
               ))}
             </div>
 
-            <button className="mt-8 inline-flex items-center bg-[#DD1111] hover:bg-red-700 transition px-8 py-4 rounded-none uppercase tracking-widest font-semibold">
+            <Link to="/contact" className="mt-8 inline-flex items-center bg-[#DD1111] hover:bg-red-700 transition px-8 py-4 rounded-none uppercase tracking-widest font-semibold">
               Start My Free Trial
               <span className="ml-3">→</span>
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -789,19 +777,19 @@ const Home = () => {
       {/* STATISTICS SECTION */}
       <StatisticsSection />
       {/* REGISTER SECTION */}
-      <section className="w-full py-16 poppins-regular bg-[#0f0f0f] text-white">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <section className="w-full py-12 md:py-16 px-4 md:px-6 poppins-regular bg-[#0f0f0f] text-white">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* LEFT CONTENT */}
-          <div className="space-y-6">
-            <h2 className="text-4xl poppins-bold tracking-widest uppercase">
+          <div className="space-y-4 md:space-y-6 text-center lg:text-left">
+            <h2 className="text-2xl md:text-4xl poppins-bold tracking-wider md:tracking-widest uppercase">
               Register Now
             </h2>
 
-            <h3 className="text-xl font-semibold uppercase tracking-wide">
+            <h3 className="text-base md:text-xl font-semibold uppercase tracking-wide">
               Schedule your free trial class at the nearest branch of Knockout
             </h3>
 
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-400 leading-relaxed text-sm md:text-base">
               We provide the best MMA training for our members. The free trial
               class lets you get a taste of what is in store for you. You will
               also get a consultation from one of our experts who will guide you
@@ -811,8 +799,8 @@ const Home = () => {
           </div>
 
           {/* RIGHT FORM */}
-          <div className="w-full bg-[#1a1a1a] shadow-2xl p-8">
-            <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="w-full bg-[#1a1a1a] shadow-2xl p-4 md:p-8">
+            <form className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div className="flex flex-col">
                 <label className="text-sm mb-1 tracking-wide">Full Name</label>
                 <input
@@ -1013,20 +1001,20 @@ const StatisticsSection = () => {
   };
 
   return (
-    <section ref={sectionRef} className="w-full bg-black py-16 px-6">
+    <section ref={sectionRef} className="w-full bg-black py-10 md:py-16 px-4 md:px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
           {/* Years of Experience */}
-          <div className="text-center">
-            <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+          <div className="text-center bg-[#0f0f0f] rounded-xl p-4 md:p-6 aspect-square lg:aspect-auto flex flex-col items-center justify-center">
+            <div className="flex items-baseline justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+              <span className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-white poppins-bold">
                 {counts.years}
               </span>
-              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+              <span className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-dangerRed poppins-bold">
                 +
               </span>
             </div>
-            <p className="text-gray-400 text-sm md:text-base leading-tight">
+            <p className="text-gray-400 text-sm sm:text-base md:text-base leading-tight">
               Years Of
               <br />
               Experiences
@@ -1034,16 +1022,16 @@ const StatisticsSection = () => {
           </div>
 
           {/* Training Branches */}
-          <div className="text-center">
-            <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+          <div className="text-center bg-[#0f0f0f] rounded-xl p-4 md:p-6 aspect-square lg:aspect-auto flex flex-col items-center justify-center">
+            <div className="flex items-baseline justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+              <span className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-white poppins-bold">
                 {counts.branches}
               </span>
-              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+              <span className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-dangerRed poppins-bold">
                 +
               </span>
             </div>
-            <p className="text-gray-400 text-sm md:text-base leading-tight">
+            <p className="text-gray-400 text-sm sm:text-base md:text-base leading-tight">
               Training
               <br />
               Branches
@@ -1051,16 +1039,16 @@ const StatisticsSection = () => {
           </div>
 
           {/* Professional Coaches */}
-          <div className="text-center">
-            <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+          <div className="text-center bg-[#0f0f0f] rounded-xl p-4 md:p-6 aspect-square lg:aspect-auto flex flex-col items-center justify-center">
+            <div className="flex items-baseline justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+              <span className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-white poppins-bold">
                 {counts.coaches}
               </span>
-              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+              <span className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-dangerRed poppins-bold">
                 +
               </span>
             </div>
-            <p className="text-gray-400 text-sm md:text-base leading-tight">
+            <p className="text-gray-400 text-sm sm:text-base md:text-base leading-tight">
               Professional
               <br />
               Coaches
@@ -1068,16 +1056,16 @@ const StatisticsSection = () => {
           </div>
 
           {/* Students Enrolled */}
-          <div className="text-center">
-            <div className="flex items-baseline justify-center gap-2 mb-2">
-              <span className="text-6xl md:text-7xl font-bold text-white poppins-bold">
+          <div className="text-center bg-[#0f0f0f] rounded-xl p-4 md:p-6 aspect-square lg:aspect-auto flex flex-col items-center justify-center">
+            <div className="flex items-baseline justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+              <span className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold text-white poppins-bold">
                 {formatStudents(counts.students)}
               </span>
-              <span className="text-4xl md:text-5xl font-bold text-dangerRed poppins-bold">
+              <span className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-dangerRed poppins-bold">
                 +
               </span>
             </div>
-            <p className="text-gray-400 text-sm md:text-base leading-tight">
+            <p className="text-gray-400 text-sm sm:text-base md:text-base leading-tight">
               Students
               <br />
               Enrolled

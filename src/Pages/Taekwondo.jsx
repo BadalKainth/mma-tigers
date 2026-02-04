@@ -23,12 +23,12 @@ export default function Taekwondo() {
         {/* BLACK OVERLAY 70% */}
         <div className="absolute inset-0 bg-black/70"></div>
 
-        <div className="w-10/12 mx-auto text-center space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-wide uppercase">
+        <div className="w-10/12 mx-auto text-center space-y-2 md:space-y-6 absolute inset-0 flex flex-col items-center justify-center text-white px-2">
+          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold tracking-wide uppercase">
             Taekwondo Classes
           </h1>
 
-          <p className="text-xl md:text-2xl font-semibold text-dangerRed tracking-widest">
+          <p className="text-xs sm:text-sm md:text-xl lg:text-2xl font-semibold text-dangerRed tracking-widest">
             🥋 TAEKWONDO CLASSES IN DELHI | TIGER MMA – TILAK NAGAR
           </p>
 
@@ -45,7 +45,7 @@ export default function Taekwondo() {
       </section>
 
       {/* MAIN CONTENT */}
-      <section className="w-7/12 mx-auto py-20 space-y-24">
+      <section className="w-10/12 md:w-7/12 mx-auto py-20 space-y-24">
         {/* INTRO BLOCK */}
         <div className="space-y-6 border-l-4 border-dangerRed pl-6">
           <h2 className="text-4xl font-extrabold text-black">
@@ -214,7 +214,7 @@ export default function Taekwondo() {
       </section>
 
       {/* FAQ SECTION */}
-      <section className="w-7/12 mx-auto py-16">
+      <section className="w-10/12 md:w-7/12 mx-auto py-16">
         <h2 className="text-3xl font-bold text-dangerRed mb-10">
           Frequently Asked Questions
         </h2>
